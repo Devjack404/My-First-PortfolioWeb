@@ -1,0 +1,141 @@
+body{
+    background-color: #474744;
+}
+
+.container{
+    background-color: #252525;
+    border-radius: 30px;
+    /* margin: 50px 400px; */
+    max-width: 80%; /* Biar tidak terlalu lebar */
+    width: 40%;
+    height: 3000px;
+    margin: 0 auto; /* Pusatkan kontainer */
+}
+
+.box{
+    border-style: inset;
+    border-width: 1px;
+    border-radius: 15px;
+    margin: 60px 200px;
+    padding: 15px;
+    position: relative;
+    top: 60px; /* Geser ke bawah */
+    margin-bottom: 50px; 
+}
+
+
+.navbar{
+    display: flex; /* Untuk gambar di tengah horizontal & vertikal*/
+    justify-content: space-around; /* Menjaga jarak antar menu */
+    gap: 10px; /* Beri jarak antar teks (link) */
+    min-width: 600px; /* Atur agar tidak mengecil di layar kecil */
+    overflow: hidden;
+}
+
+.title{
+    color: #E8E8C6;
+    font-size: 100px;
+    text-align: center;
+    font-family: "Jersey 15";
+    margin-top: 90px;
+    margin-bottom: -60px;
+}
+
+.home{
+    color: #E8E8C6;
+    font-size: 50px;
+    font-family: "Jersey 15";
+}
+
+.content img{
+    width: 80%;
+    height: auto;
+    border-radius: 50px;
+    border-style: inset;
+    border-width: 10px;
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.bar{
+    border-radius: 20px;
+    background-color:#E8E8C6;
+    display: flex; /* Untuk gambar di tengah horizontal & vertikal*/
+    max-width: 90%;
+    width: 80%;
+    margin-top: 30px;
+    border-color: #E8E8C6;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px;
+    
+}   
+
+.alien-icon, .shop-icon, .lamp-icon {
+    width: 110px; /* Sesuaikan ukuran */
+    height: auto; /* Agar proporsi tetap */
+    justify-content: center; 
+    margin: 0 auto;
+    
+    
+}
+
+.star-icon, .cat-icon{
+    width: 50px ; /* Sesuaikan ukuran */
+    height: 40px;
+    justify-content: center; 
+    margin: 0 auto;
+    margin-top: 28px;
+}
+
+
+.about-text h2{
+    color: #E8E8C6;
+    font-size: 150px;
+    font-family: "Jersey 15";
+    margin-top: 90px;
+    margin-bottom: -60px;
+    text-align: left;
+    margin-left: 40px;
+}
+
+.about-text p{
+    color: #E8E8C6;
+    font-size: 60px;
+    text-align: left;
+    font-family: "Jersey 15";
+    margin-top: 60px;
+    margin-bottom: -60px;
+    margin-left: 70px;
+    text-align: left;
+}
+
+.my-photo{
+    flex-shrink: 0; /* Agar gambar tidak mengecil */
+}
+
+hr{
+    transform: rotate(90deg); /* Putar 90 derajat */
+    height: 1px; /* Tinggi garis */
+    width: 600px; /* Lebar garis */
+    background-color: #E8E8C6; /* Warna garis */
+    align-items: center; /* Pusatkan garis */
+    margin-top: -300px; /* Geser ke atas */
+}
+
+.jack-photo{
+    width: 350px; /* Sesuaikan ukuran */
+    height: auto; /* Agar proporsi tetap */
+    border-radius: 10px;
+    border: 5px solid #E8E8C6; /* Warna border */
+    margin-right: 200px;
+}
+
+.about-container {
+    display: flex;
+    align-items: center; /* Agar sejajar dengan teks */
+    max-width: 90%;
+    margin: auto;
+    gap: 50px; /* Beri jarak antara teks dan gambar */
+}
